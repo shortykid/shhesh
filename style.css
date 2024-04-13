@@ -1,22 +1,22 @@
-h3
+body
 {
-    font-size: 25px !important;
+    background-size: cover;
+    background-position: center;
 }
-.btn-success:hover
+.heading
 {
-    background-color:red;
-}
-canvas {
-    background-color: white;
-    animation-name: example;
-    animation-duration: 4s;
-    animation-iteration-count: infinite;
+font-size: 23px;
+width: 100%;
+margin: 0px;
 }
 
-@keyframes example{
-    from{box-shadow: 10px 10px 38px red;}
-    to { box-shadow: 10px 10px 38px yellow;}
+#status
+{
+font-size: 18px;
 }
-.background{
-    background-size: cover;
+
+canvas
+{
+    box-shadow: 10px 10px 10px grey;
+    border-radius: 10px;
 }
